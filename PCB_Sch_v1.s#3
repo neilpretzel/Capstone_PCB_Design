@@ -318,188 +318,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="SPH0645LM4H-B">
-<packages>
-<package name="MIC_SPH0645LM4H-B">
-<wire x1="1.325" y1="0.7" x2="1.325" y2="-1.04" width="0.127" layer="21"/>
-<wire x1="1.325" y1="-1.04" x2="-1.325" y2="-1.04" width="0.127" layer="21"/>
-<wire x1="-1.325" y1="-1.04" x2="-1.325" y2="0.7" width="0.127" layer="21"/>
-<circle x="-1.578" y="2.232" radius="0.05" width="0.1" layer="21"/>
-<wire x1="-1.325" y1="2.46" x2="1.325" y2="2.46" width="0.127" layer="51"/>
-<wire x1="1.325" y1="2.46" x2="1.325" y2="-1.04" width="0.127" layer="51"/>
-<wire x1="1.325" y1="-1.04" x2="-1.325" y2="-1.04" width="0.127" layer="51"/>
-<wire x1="-1.325" y1="-1.04" x2="-1.325" y2="2.46" width="0.127" layer="51"/>
-<wire x1="-1.651" y1="2.794" x2="1.651" y2="2.794" width="0.05" layer="39"/>
-<wire x1="1.651" y1="2.794" x2="1.651" y2="-1.397" width="0.05" layer="39"/>
-<wire x1="1.651" y1="-1.397" x2="-1.651" y2="-1.397" width="0.05" layer="39"/>
-<wire x1="-1.651" y1="-1.397" x2="-1.651" y2="2.794" width="0.05" layer="39"/>
-<text x="-1.71363125" y="2.78905" size="0.612684375" layer="25">&gt;NAME</text>
-<text x="-1.71198125" y="-2.04835" size="0.612096875" layer="27">&gt;VALUE</text>
-<circle x="0" y="0" radius="0.456" width="0.912" layer="29"/>
-<polygon width="0.001" layer="31">
-<vertex x="-0.53" y="-0.385"/>
-<vertex x="-0.43" y="-0.285"/>
-<vertex x="-0.465" y="-0.23"/>
-<vertex x="-0.505" y="-0.12"/>
-<vertex x="-0.51" y="-0.12"/>
-<vertex x="-0.505" y="-0.11"/>
-<vertex x="-0.52" y="-0.005"/>
-<vertex x="-0.523603125" y="0.005"/>
-<vertex x="-0.52" y="0.005"/>
-<vertex x="-0.505" y="0.125"/>
-<vertex x="-0.4615375" y="0.224609375"/>
-<vertex x="-0.426171875" y="0.292665625"/>
-<vertex x="-0.525" y="0.39"/>
-<vertex x="-0.635" y="0.505"/>
-<vertex x="-0.7" y="0.41"/>
-<vertex x="-0.75" y="0.31"/>
-<vertex x="-0.78" y="0.22"/>
-<vertex x="-0.8" y="0.14"/>
-<vertex x="-0.81" y="0"/>
-<vertex x="-0.796203125" y="-0.160190625"/>
-<vertex x="-0.75" y="-0.31"/>
-<vertex x="-0.705" y="-0.4"/>
-<vertex x="-0.640309375" y="-0.499765625"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="0.38" y="-0.53"/>
-<vertex x="0.28" y="-0.425"/>
-<vertex x="0.23" y="-0.46"/>
-<vertex x="0.12" y="-0.5"/>
-<vertex x="0" y="-0.513603125"/>
-<vertex x="-0.12" y="-0.5"/>
-<vertex x="-0.224609375" y="-0.4615375"/>
-<vertex x="-0.287665625" y="-0.426171875"/>
-<vertex x="-0.385" y="-0.525"/>
-<vertex x="-0.5" y="-0.64"/>
-<vertex x="-0.405" y="-0.705"/>
-<vertex x="-0.31" y="-0.75"/>
-<vertex x="-0.22" y="-0.78"/>
-<vertex x="-0.14" y="-0.8"/>
-<vertex x="0" y="-0.81"/>
-<vertex x="0.160190625" y="-0.796203125"/>
-<vertex x="0.31" y="-0.75"/>
-<vertex x="0.425" y="-0.69"/>
-<vertex x="0.494765625" y="-0.645309375"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="0.53" y="0.385"/>
-<vertex x="0.425" y="0.28"/>
-<vertex x="0.46" y="0.23"/>
-<vertex x="0.5" y="0.12"/>
-<vertex x="0.513603125" y="0"/>
-<vertex x="0.5" y="-0.12"/>
-<vertex x="0.4615375" y="-0.224609375"/>
-<vertex x="0.421171875" y="-0.282665625"/>
-<vertex x="0.52" y="-0.38"/>
-<vertex x="0.64" y="-0.5"/>
-<vertex x="0.705" y="-0.405"/>
-<vertex x="0.75" y="-0.31"/>
-<vertex x="0.78" y="-0.23"/>
-<vertex x="0.8" y="-0.14"/>
-<vertex x="0.81" y="-0.06"/>
-<vertex x="0.81" y="0.065"/>
-<vertex x="0.796203125" y="0.160190625"/>
-<vertex x="0.78" y="0.235"/>
-<vertex x="0.75" y="0.31"/>
-<vertex x="0.705" y="0.405"/>
-<vertex x="0.640309375" y="0.499765625"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="-0.375" y="0.53"/>
-<vertex x="-0.28" y="0.435"/>
-<vertex x="-0.23" y="0.46"/>
-<vertex x="-0.175" y="0.485"/>
-<vertex x="-0.12" y="0.5"/>
-<vertex x="-0.06" y="0.51"/>
-<vertex x="0" y="0.513603125"/>
-<vertex x="0.12" y="0.5"/>
-<vertex x="0.224609375" y="0.4615375"/>
-<vertex x="0.282665625" y="0.426171875"/>
-<vertex x="0.385" y="0.525"/>
-<vertex x="0.5" y="0.64"/>
-<vertex x="0.41" y="0.7"/>
-<vertex x="0.31" y="0.75"/>
-<vertex x="0.23" y="0.78"/>
-<vertex x="0.14" y="0.8"/>
-<vertex x="0" y="0.81"/>
-<vertex x="-0.160190625" y="0.796203125"/>
-<vertex x="-0.31" y="0.75"/>
-<vertex x="-0.415" y="0.7"/>
-<vertex x="-0.489765625" y="0.645309375"/>
-</polygon>
-<polygon width="0.001" layer="1">
-<vertex x="-0.01" y="0.51"/>
-<vertex x="-0.01" y="0.81" curve="90"/>
-<vertex x="-0.81" y="0.02" curve="90"/>
-<vertex x="0.02" y="-0.81"/>
-<vertex x="0.03" y="-0.81" curve="90"/>
-<vertex x="0.81" y="-0.03"/>
-<vertex x="0.81" y="0" curve="90"/>
-<vertex x="0" y="0.81"/>
-<vertex x="0" y="0.51" curve="-90"/>
-<vertex x="0.51" y="0.01" curve="-90"/>
-<vertex x="-0.01" y="-0.51"/>
-<vertex x="-0.02" y="-0.51" curve="-90"/>
-<vertex x="-0.51" y="-0.02"/>
-<vertex x="-0.51" y="0.01" curve="-90"/>
-</polygon>
-<smd name="2" x="-0.9" y="1.252" dx="0.6" dy="0.522" layer="1"/>
-<smd name="1" x="-0.9" y="2.074" dx="0.6" dy="0.522" layer="1"/>
-<smd name="6" x="0" y="2.074" dx="0.6" dy="0.522" layer="1"/>
-<smd name="5" x="0.9" y="2.074" dx="0.6" dy="0.522" layer="1"/>
-<smd name="4" x="0.9" y="1.252" dx="0.6" dy="0.522" layer="1"/>
-<smd name="3" x="0.65" y="0.02" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
-<hole x="0" y="0" drill="0.5"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SPH0645LM4H-B">
-<wire x1="-12.7" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
-<text x="-12.7399" y="8.1466" size="1.78358125" layer="95">&gt;NAME</text>
-<text x="-12.7473" y="-10.1926" size="1.7846" layer="96">&gt;VALUE</text>
-<pin name="WS" x="-17.78" y="2.54" length="middle" direction="in"/>
-<pin name="SELECT" x="-17.78" y="0" length="middle" direction="in"/>
-<pin name="GND" x="17.78" y="-5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="BCLK" x="-17.78" y="-2.54" length="middle" direction="in" function="clk"/>
-<pin name="VDD" x="17.78" y="5.08" length="middle" direction="pwr" rot="R180"/>
-<pin name="DATA_OUT" x="17.78" y="0" length="middle" direction="out" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SPH0645LM4H-B" prefix="MK">
-<description>Mic Mems Digital I2s Omni -26db</description>
-<gates>
-<gate name="G$1" symbol="SPH0645LM4H-B" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MIC_SPH0645LM4H-B">
-<connects>
-<connect gate="G$1" pin="BCLK" pad="4"/>
-<connect gate="G$1" pin="DATA_OUT" pad="6"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="SELECT" pad="2"/>
-<connect gate="G$1" pin="VDD" pad="5"/>
-<connect gate="G$1" pin="WS" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Mic Mems Digital I2s Omni -26db "/>
-<attribute name="MF" value="Knowles"/>
-<attribute name="MP" value="SPH0645LM4H-B"/>
-<attribute name="PACKAGE" value="SIP-7 Bourns"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -511,7 +329,6 @@
 </classes>
 <parts>
 <part name="U1" library="ESP32-WROOM-32D" deviceset="ESP32-WROOM-32D" device=""/>
-<part name="MK1" library="SPH0645LM4H-B" deviceset="SPH0645LM4H-B" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -521,10 +338,6 @@
 <instance part="U1" gate="G$1" x="81.28" y="38.1" smashed="yes">
 <attribute name="NAME" x="66.2441" y="74.7745" size="1.783840625" layer="95"/>
 <attribute name="VALUE" x="65.9933" y="-0.1081" size="1.78345" layer="96"/>
-</instance>
-<instance part="MK1" gate="G$1" x="127" y="81.28" smashed="yes">
-<attribute name="NAME" x="114.2601" y="89.4266" size="1.78358125" layer="95"/>
-<attribute name="VALUE" x="114.2527" y="71.0874" size="1.7846" layer="96"/>
 </instance>
 </instances>
 <busses>
