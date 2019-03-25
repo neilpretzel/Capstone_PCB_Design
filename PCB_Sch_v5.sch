@@ -12313,6 +12313,9 @@ Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/4343x30458xx.p
 <part name="U$48" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$49" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$50" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="U$51" library="microbuilder" deviceset="3.3V" device=""/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
+<part name="U$52" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12720,6 +12723,16 @@ Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/4343x30458xx.p
 <instance part="U$50" gate="G$1" x="114.3" y="129.54" smashed="yes" rot="R270">
 <attribute name="VALUE" x="115.316" y="131.064" size="1.27" layer="96" rot="R270"/>
 </instance>
+<instance part="U$51" gate="G$1" x="66.04" y="-2.54" smashed="yes" rot="R270">
+<attribute name="VALUE" x="67.056" y="-1.016" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="R17" gate="G$1" x="7.62" y="-17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.1214" y="-21.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="10.922" y="-16.51" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U$52" gate="G$1" x="7.62" y="-25.4" smashed="yes">
+<attribute name="VALUE" x="6.096" y="-22.86" size="1.27" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12917,6 +12930,10 @@ Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/4343x30458xx.p
 <pinref part="R16" gate="G$1" pin="1"/>
 <pinref part="U$45" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="U$52" gate="G$1" pin="GND"/>
+</segment>
 </net>
 <net name="MOSI/DATA1" class="0">
 <segment>
@@ -13075,6 +13092,10 @@ Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/4343x30458xx.p
 <pinref part="U$50" gate="G$1" pin="3.3V"/>
 <wire x1="111.76" y1="129.54" x2="109.22" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="S5" gate="G$1" pin="4"/>
+</segment>
+<segment>
+<pinref part="U$51" gate="G$1" pin="3.3V"/>
+<wire x1="63.5" y1="-2.54" x2="66.04" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="13V" class="0">
@@ -13573,6 +13594,13 @@ Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/4343x30458xx.p
 <pinref part="MK1" gate="G$1" pin="SELECT"/>
 <wire x1="22.86" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="MK1" gate="G$1" pin="VDD"/>
+<wire x1="58.42" y1="-2.54" x2="66.04" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
