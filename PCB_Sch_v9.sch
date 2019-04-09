@@ -12295,7 +12295,6 @@ Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/4343x30458xx.p
 <part name="S2" library="434333045822" deviceset="434333045822" device=""/>
 <part name="S3" library="434333045822" deviceset="434333045822" device=""/>
 <part name="S4" library="434333045822" deviceset="434333045822" device=""/>
-<part name="S5" library="434333045822" deviceset="434333045822" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="U$40" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$41" library="microbuilder" deviceset="GND" device=""/>
@@ -12312,7 +12311,6 @@ Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/4343x30458xx.p
 <part name="U$47" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$48" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$49" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="U$50" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$51" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
 <part name="U$52" library="microbuilder" deviceset="GND" device=""/>
@@ -12650,10 +12648,6 @@ Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/4343x30458xx.p
 <attribute name="NAME" x="74.92951875" y="128.27143125" size="1.77866875" layer="95" rot="R90"/>
 <attribute name="VALUE" x="78.74098125" y="128.27146875" size="1.778690625" layer="96" rot="R90"/>
 </instance>
-<instance part="S5" gate="G$1" x="104.14" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.86951875" y="128.27143125" size="1.77866875" layer="95" rot="R90"/>
-<attribute name="VALUE" x="106.68098125" y="128.27146875" size="1.778690625" layer="96" rot="R90"/>
-</instance>
 <instance part="C3" gate="G$1" x="91.44" y="88.9" smashed="yes">
 <attribute name="NAME" x="92.456" y="89.535" size="1.778" layer="95"/>
 <attribute name="VALUE" x="92.456" y="84.709" size="1.778" layer="96"/>
@@ -12707,9 +12701,6 @@ Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/4343x30458xx.p
 </instance>
 <instance part="U$49" gate="G$1" x="86.36" y="129.54" smashed="yes" rot="R270">
 <attribute name="VALUE" x="87.376" y="131.064" size="1.27" layer="96" rot="R270"/>
-</instance>
-<instance part="U$50" gate="G$1" x="114.3" y="129.54" smashed="yes" rot="R270">
-<attribute name="VALUE" x="115.316" y="131.064" size="1.27" layer="96" rot="R270"/>
 </instance>
 <instance part="U$51" gate="G$1" x="66.04" y="-2.54" smashed="yes" rot="R270">
 <attribute name="VALUE" x="67.056" y="1.524" size="1.27" layer="96" rot="R270"/>
@@ -13066,11 +13057,6 @@ Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/4343x30458xx.p
 <pinref part="S4" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<pinref part="U$50" gate="G$1" pin="3.3V"/>
-<wire x1="111.76" y1="129.54" x2="109.22" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="S5" gate="G$1" pin="4"/>
-</segment>
-<segment>
 <pinref part="U4" gate="G$1" pin="OUT"/>
 <wire x1="-17.78" y1="63.5" x2="-15.24" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U$13" gate="G$1" pin="3.3V"/>
@@ -13193,6 +13179,14 @@ Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/4343x30458xx.p
 <pinref part="U$35" gate="G$1" pin="VBUS"/>
 <wire x1="-96.52" y1="104.14" x2="-96.52" y2="114.3" width="0.1524" layer="91"/>
 <junction x="-96.52" y="104.14"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="VBUS"/>
+<wire x1="170.18" y1="60.96" x2="185.42" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="X4" gate="G$1" pin="VBUS"/>
+<wire x1="165.1" y1="60.96" x2="170.18" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U$32" gate="G$1" pin="VBUS"/>
+<wire x1="170.18" y1="60.96" x2="170.18" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -13324,11 +13318,8 @@ Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/4343x30458xx.p
 <label x="58.42" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="S5" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="119.38" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="116.84" x2="93.98" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<junction x="99.06" y="116.84"/>
 <label x="83.82" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -13354,16 +13345,6 @@ Details see: &lt;a href="http://katalog.we-online.de/em/datasheet/4343x30458xx.p
 <pinref part="MK1" gate="G$1" pin="WS"/>
 <wire x1="22.86" y1="-5.08" x2="20.32" y2="-5.08" width="0.1524" layer="91"/>
 <label x="10.16" y="-5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="VBUS1" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="VBUS"/>
-<wire x1="170.18" y1="60.96" x2="185.42" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="X4" gate="G$1" pin="VBUS"/>
-<wire x1="165.1" y1="60.96" x2="170.18" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U$32" gate="G$1" pin="VBUS"/>
-<wire x1="170.18" y1="60.96" x2="170.18" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RXD0" class="0">
